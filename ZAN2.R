@@ -50,9 +50,9 @@ testing_tbl_unq=data[test,]
 
 #Уравнение регрессии:
 formula=co2_flux~Tau+rand_err_Tau+H+
-  LE+rand_err_LE+h2o_flux+rand_err_h2o_flux+
+  LE+rand_err_LE+h2o_flux+
   co2_molar_density+co2_mixing_ratio+
-  air_temperature+u.+T.+un_H+un_LE+LE_scf+un_co2_flux+un_h2o_flux 
+  sonic_temperature+T 
 #Создание модели линейной регрессии:
 model=lm(formula,data=data);model 
 #коэффициенты:
