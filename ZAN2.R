@@ -1,4 +1,3 @@
-setwd("C:/Users/Mr_E/Desktop/Mod_Z_2")
 getwd() 
 #подключение tidyverse: 
 require(tidyverse) 
